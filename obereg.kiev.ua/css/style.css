@@ -1,0 +1,235 @@
+@font-face{
+	font-family: "Open Sans Light";
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans LightItalic";
+	src: url(../fonts/OpenSans-LightItalic.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans Regular";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans Bold";
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans Italic";
+	src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans BoldItalic";
+	src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans Semibold";
+	src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans SemiboldItalic";
+	src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans ExtraBold";
+	src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans ExtraBoldItalic";
+	src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+html,
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;	
+}
+
+body{
+	font: 14px/25px "Open Sans Regular", Arial , Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;	
+	background: #131313;
+}
+
+header{
+	width: 1280px;	
+	margin: 0 auto;	
+}
+
+.top{
+	position: relative;
+	margin-top: 2%;
+}
+
+.logo{
+	float: left;
+	width: 25%;
+}
+
+.logo img{
+	border: none;
+	max-width: 100%;
+}
+
+address{
+	float: right;
+	width: 75%;	
+	font-family: "Open Sans Bold", Arial , Helvetica, sans-serif;
+	font-size: 150%;
+	font-weight: 150%;
+	font-style: normal;
+}
+
+address ul{
+	float: right;
+	text-align: left;
+	margin-right: 1%;	
+}
+
+address a{
+	color: #fff;
+}
+
+/* Menu */
+
+#slide nav{
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+	z-index: 100;
+	background: url(../images/nav-bg.png) 0 0 repeat;	
+}
+
+ul.menu{
+	margin: 0 15px 0 15px;
+}
+
+ul.menu li{
+	float: left;
+	line-height: 35px;
+	margin: 0px 0 0px 0px;
+	background: transparent;
+}
+ul.menu li a{
+	font-family: "Open Sans Bold", Arial , Helvetica, sans-serif;
+	font-size: 190%;
+	font-weight: 150%;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: 35px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 17.5px 25px 17.5px 25px;
+}
+
+ul.menu li:hover,
+ul.menu li.active{
+	background: #006600;
+}
+
+/* End menu */
+
+/* Main */
+
+main{
+	width: 1280px;
+	font-family: "Open Sans Regular", Arial , Helvetica, sans-serif;
+	margin: 0 auto;
+}
+
+main h1{	
+	font-size: 200%;	
+	color: #00ff00;
+}
+
+/* Content */
+
+#content{
+	float: left;
+	width: 70%;
+	margin-top: 4%;	 	
+}
+
+#content h2{
+	font-size: 140%;
+	padding: 2% 0 1% 0;
+}
+
+#content p{
+	font-size: 120%;
+	text-indent: 4%;
+	padding: 0 5% 1% 5%;
+	text-align: justify;
+}
+
+/* End content */
+
+/* Sidebar */
+
+aside{
+	float: right;
+	width: 30%;
+	margin-top: 4%;	
+}
+
+aside nav{
+	font-family: "Open Sans Bold", Arial , Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 140%;
+	font-style: normal;
+	line-height: 1.5;
+	text-align: left;	
+	padding: 4% 0 1% 0;
+}
+
+aside a{
+	color: #fff;
+	text-decoration: none;
+}
+
+aside a:hover{
+	color: #939393;	
+}
+
+aside li.active a{
+	color: #939393;
+}
+
+aside h1:nth-of-type(2){
+	margin-top: 7%;
+}
+
+/* End sidebar */
+
+/* End main */
+
+/* Footer */
+
+footer{
+	clear: both;
+	color: #00ff00;
+	padding: 2% 0 2% 0;
+}
+
+footer a{
+	color: #00ff00;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #006600;
+}
+
+/*End footer */
